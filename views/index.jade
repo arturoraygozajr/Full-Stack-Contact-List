@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  table
+   tbody
+
+  p Welcome to #{title}
+
+  a(href='/addUser') Add User
+  ul
+   for obj in data
+    //a(href='/userinfo/${obj.user'}li= obj.user
+
